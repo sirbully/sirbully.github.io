@@ -4,7 +4,7 @@
       <span id="typewriter">
         <span class="type-wrap"></span>
       </span>
-      <div class="emoji" :style="waveHand"></div>
+      <span class="emoji" :style="waveHand"></span>
     </h1>
     <h2 class="intro__motto">
       I'm <span class="pangalan">Krizza Bullecer</span>, a curious full-stack
@@ -132,7 +132,6 @@ export default {
       font-size: 1.4rem;
     }
     .emoji {
-      display: inline-block;
       width: 40px;
       height: 40px;
       @include desktop {
@@ -166,7 +165,6 @@ export default {
       font-size: 1rem;
     }
     .emoji {
-      display: inline-block;
       &.pointer {
         width: 30px;
         height: 30px;
