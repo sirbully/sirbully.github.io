@@ -1,6 +1,6 @@
-# portfolio-v1
+# Portfolio V1
 
-> first iteration of portfolio
+> The first version of my online portfolio based on Vue and Nuxt!
 
 ## Build Setup
 
