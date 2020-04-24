@@ -92,7 +92,7 @@ export default {
 @import '../assets/css/styles.scss';
 
 #typewriter > .text-wrap {
-  border-right: 0.08em solid #000;
+  border-right: 0.08em solid $dark-grey;
 }
 
 .intro {
@@ -153,7 +153,7 @@ export default {
   }
   &__motto {
     font-weight: 300;
-    max-width: 700px;
+    max-width: 800px;
     .pangalan {
       font-weight: 700;
     }

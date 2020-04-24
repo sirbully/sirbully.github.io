@@ -3,28 +3,16 @@
     <div class="section__title">Skills</div>
     <div class="section__content">
       <div class="powers">
-        <div class="powers__category">
-          <div class="powers__category__label">Languages</div>
+        <div v-for="s in skillxsz" :key="s.title" class="powers__category">
+          <div class="powers__category__label">{{ s.title }}</div>
           <ul>
-            <li class="powers__category__item"></li>
-          </ul>
-        </div>
-        <div class="powers__category">
-          <div class="powers__category__label">Frameworks</div>
-          <ul>
-            <li class="powers__category__item"></li>
-          </ul>
-        </div>
-        <div class="powers__category">
-          <div class="powers__category__label">Tools</div>
-          <ul>
-            <li class="powers__category__item"></li>
-          </ul>
-        </div>
-        <div class="powers__category">
-          <div class="powers__category__label">Design</div>
-          <ul>
-            <li class="powers__category__item"></li>
+            <li
+              v-for="power in s.powers"
+              :key="power"
+              class="powers__category__item"
+            >
+              {{ power }}
+            </li>
           </ul>
         </div>
       </div>
@@ -33,7 +21,66 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      skillxsz: [
+        {
+          title: 'Languages',
+          powers: [
+            'HTML',
+            'CSS',
+            'Sass',
+            'Javascript ES6+',
+            'NodeJS',
+            'PHP',
+            'Java',
+            'Python'
+          ]
+        },
+        {
+          title: 'Frameworks',
+          powers: [
+            'ReactJS',
+            'VueJS',
+            'jQuery',
+            'Express',
+            'Laravel',
+            'CodeIgniter',
+            'Spring',
+            'Django'
+          ]
+        },
+        {
+          title: 'Tools',
+          powers: [
+            'Git',
+            'Firebase',
+            'AWS',
+            'MySQL',
+            'MongoDB',
+            'PostgreSQL',
+            'WordPress',
+            'Jest'
+          ]
+        },
+        {
+          title: 'Design',
+          powers: [
+            'Bootstrap',
+            'Material',
+            'Bulma',
+            'Tailwind',
+            'UI/UX',
+            'Figma',
+            'Photoshop',
+            'Illustrator'
+          ]
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">

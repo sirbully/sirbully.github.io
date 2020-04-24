@@ -13,8 +13,8 @@
       <p>
         As a software engineer, my goal is to always keep learning in order for
         me to be able to create the most efficient and scalable applications
-        possible. I make it my mission to continue growing and be a more
-        educated person than I was yesterday.
+        possible. I make it my mission to continue growing and be a better
+        person than I was yesterday.
       </p>
 
       <p>

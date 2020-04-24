@@ -3,35 +3,52 @@
     <div class="section__title">Experience</div>
     <div class="section__content">
       <div class="trabajos">
-        <div class="trabajo">
+        <div v-for="trabaho in trabahos" :key="trabaho.saan" class="trabajo">
           <div class="saan-kelan">
-            <div class="trabajo__saan">Exora Technologies</div>
-            <div class="trabajo__kelan">Nov 2019 - Present</div>
+            <div class="trabajo__saan">
+              <a :href="trabaho.url" target="_blank" class="underline-link">{{
+                trabaho.saan
+              }}</a>
+            </div>
+            <div class="trabajo__kelan">{{ trabaho.kelan }}</div>
           </div>
-          <div class="trabajo__posisyon">Platform Engineer</div>
-        </div>
-        <div class="trabajo">
-          <div class="saan-kelan">
-            <div class="trabajo__saan">Women Who Code Manila</div>
-            <div class="trabajo__kelan">Jan 2018 - Present</div>
-          </div>
-          <div class="trabajo__posisyon">VueJS Tech Lead</div>
-        </div>
-        <div class="trabajo">
-          <div class="saan-kelan">
-            <div class="trabajo__saan">My Kids Code PH</div>
-            <div class="trabajo__kelan">Sept 2018 - Nov 2018</div>
-          </div>
-          <div class="trabajo__posisyon">Programming Teacher</div>
+          <div class="trabajo__posisyon">{{ trabaho.posisyon }}</div>
         </div>
       </div>
-      <a href="#" target="_blank" class="arrow-link">View My Resume</a>
+      <a :href="resume" target="_blank" class="arrow-link">View My Resume</a>
     </div>
   </section>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      resume:
+        'https://drive.google.com/open?id=1ORdGWxHz4ErFlc4EXlMaPkF2Oox_ubHj',
+      trabahos: [
+        {
+          saan: 'Exora Technologies',
+          kelan: 'Nov 2019 - Present',
+          posisyon: 'Platform Engineer',
+          url: 'htttps://www.exora.ph'
+        },
+        {
+          saan: 'Women Who Code Manila',
+          kelan: 'Jan 2018 - Present',
+          posisyon: 'VueJS Tech Lead',
+          url: 'https://www.womenwhocode.com/manila/about#leaders'
+        },
+        {
+          saan: 'My Kids Code PH',
+          kelan: 'Oct 2018 - Dec 2018',
+          posisyon: 'Programming Teacher',
+          url: 'https://www.instagram.com/p/BrXNIGyHWId'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style lang="scss">

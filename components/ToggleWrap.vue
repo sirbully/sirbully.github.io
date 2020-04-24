@@ -3,13 +3,16 @@
     <div
       class="sun"
       :style="{
-        background: `url(${currentSun}) no-repeat center`,
-        backgroundSize: '100%'
+        background: `url(${currentSun}) no-repeat center`
       }"
     ></div>
     <div class="toggle-wrapper">
-      <input id="cbx" type="checkbox" :checked="checked" />
-      <label id="toggler" for="switch" @click="willCheck">
+      <input
+        id="cbx"
+        type="checkbox"
+        :checked="$store.state.toggled.isChecked"
+      />
+      <label id="toggler" for="switch" @click="toggle">
         Toggle
       </label>
     </div>
@@ -24,35 +27,25 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import DarkMoon from '@/assets/img/toggler/moon.svg'
 import LightMoon from '@/assets/img/toggler/moon-white.svg'
 import DarkSun from '@/assets/img/toggler/sun.svg'
 import LightSun from '@/assets/img/toggler/sun-white.svg'
 
 export default {
-  props: {
-    theme: {
-      type: String,
-      default: 'light'
-    }
-  },
-  data() {
-    return {
-      checked: false
-    }
-  },
   computed: {
     currentSun() {
-      return this.theme === 'dark' ? LightSun : DarkSun
+      return this.$store.state.toggled.isChecked ? LightSun : DarkSun
     },
     currentMoon() {
-      return this.theme === 'dark' ? LightMoon : DarkMoon
+      return this.$store.state.toggled.isChecked ? LightMoon : DarkMoon
     }
   },
   methods: {
-    willCheck() {
-      this.checked = !this.checked
-    }
+    ...mapMutations({
+      toggle: 'toggled/toggle'
+    })
   }
 }
 </script>
@@ -75,6 +68,7 @@ export default {
   .moon {
     width: 17px;
     height: 17px;
+    background-size: 100% !important;
   }
   .toggle-wrapper {
     margin: 10px;
@@ -84,7 +78,7 @@ export default {
       visibility: hidden;
       position: absolute;
       &:checked + label {
-        background: $green;
+        background: $blue;
       }
       &:checked + label:after {
         left: calc(100% - 3px);

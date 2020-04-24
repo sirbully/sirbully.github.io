@@ -6,7 +6,10 @@
       </div>
       <div class="bottom">
         <span
-          ><a href="https://github.com/bchiang7" class="underline-link"
+          ><a
+            href="https://github.com/bchiang7"
+            target="_blank"
+            class="underline-link"
             >Brittany Chiang</a
           ></span
         >
@@ -22,6 +25,7 @@
         target="_blank"
       >
         <span class="text">{{ link.title }}</span>
+        <img :src="link.logo" :alt="link.title" />
       </a>
     </div>
   </footer>
@@ -29,16 +33,36 @@
 
 <script>
 import RockOn from '@/assets/img/icons/rockon.png'
+import EmailIcon from '@/assets/img/social/email.svg'
+import GithubIcon from '@/assets/img/social/github.svg'
+import InstagramIcon from '@/assets/img/social/instagram.svg'
+import LinkedinIcon from '@/assets/img/social/linkedin.svg'
 
 export default {
   data() {
     return {
       RockOn,
       socialLinks: [
-        { url: 'mailto:krizzabullecer@gmail.com', title: 'Email' },
-        { url: 'https://www.instagram.com/iamkindasmol', title: 'Instagram' },
-        { url: 'https://github.com/sirbully', title: 'Github' },
-        { url: 'https://www.linkedin.com/in/knabullecer', title: 'LinkedIn' }
+        {
+          url: 'mailto:krizzabullecer@gmail.com',
+          title: 'Email',
+          logo: EmailIcon
+        },
+        {
+          url: 'https://www.instagram.com/iamkindasmol',
+          title: 'Instagram',
+          logo: InstagramIcon
+        },
+        {
+          url: 'https://github.com/sirbully',
+          title: 'Github',
+          logo: GithubIcon
+        },
+        {
+          url: 'https://www.linkedin.com/in/knabullecer',
+          title: 'LinkedIn',
+          logo: LinkedinIcon
+        }
       ]
     }
   }
