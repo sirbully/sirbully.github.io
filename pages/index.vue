@@ -30,6 +30,7 @@ import OtherProjects from '@/components/OtherProjects.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import Rocket1 from '@/assets/img/icons/rocket-1.png'
 import Rocket2 from '@/assets/img/icons/rocket-2.png'
+import Cover from '@/assets/img/Cover.png'
 
 export default {
   components: {
@@ -45,7 +46,13 @@ export default {
   data() {
     return {
       myRocket: null,
-      hovered: false
+      hovered: false,
+      title: 'Krizza Bullecer | Full-stack Developer',
+      desc:
+        "I'm Krizza Bullecer, a curious full-stack software engineer focused on building beautiful and optimized apps while staying up-to-date with the latest trends in tech.",
+      img: Cover,
+      url: '',
+      siteName: 'Krizza Bullecer'
     }
   },
   computed: {
@@ -74,6 +81,53 @@ export default {
         left: 0,
         behavior: 'smooth'
       })
+    }
+  },
+  head() {
+    return {
+      title: 'Krizza Bullecer | Full-stack Developer',
+      meta: [
+        {
+          property: 'og:type',
+          content: 'article'
+        },
+        {
+          property: 'og:description',
+          content: this.desc
+        },
+        {
+          property: 'og:image',
+          content: this.img
+        },
+        {
+          property: 'og:url',
+          content: this.url
+        },
+        {
+          property: 'og:site_name',
+          content: this.siteName
+        },
+        {
+          name: 'twitter:title',
+          content: this.title
+        },
+        {
+          name: 'twitter:description',
+          content: this.desc
+        },
+        {
+          name: 'twitter:image',
+          content: this.img
+        },
+        {
+          name: 'twitter:card',
+          content: 'summary_large_image'
+        },
+        {
+          name: 'robots',
+          content: 'index,follow'
+        }
+      ]
     }
   }
 }
