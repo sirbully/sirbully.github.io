@@ -5,14 +5,8 @@
     <the-background />
     <the-talent />
     <the-trabajos />
-    <section id="featured-projects" class="section">
-      <div class="section__title">Featured Projects</div>
-      <div class="section__content"></div>
-    </section>
-    <section id="other-projects" class="section">
-      <div class="section__title">Other Projects</div>
-      <div class="section__content"></div>
-    </section>
+    <featured-projects />
+    <other-projects />
     <the-footer />
     <button
       id="launch-top"
@@ -31,6 +25,8 @@ import TheHeader from '@/components/TheHeader.vue'
 import TheBackground from '@/components/TheBackground.vue'
 import TheTalent from '@/components/TheTalent.vue'
 import TheTrabajos from '@/components/TheTrabajos.vue'
+import FeaturedProjects from '@/components/FeaturedProjects.vue'
+import OtherProjects from '@/components/OtherProjects.vue'
 import TheFooter from '@/components/TheFooter.vue'
 import Rocket1 from '@/assets/img/icons/rocket-1.png'
 import Rocket2 from '@/assets/img/icons/rocket-2.png'
@@ -42,6 +38,8 @@ export default {
     TheBackground,
     TheTalent,
     TheTrabajos,
+    FeaturedProjects,
+    OtherProjects,
     TheFooter
   },
   data() {
@@ -80,14 +78,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-</style>
