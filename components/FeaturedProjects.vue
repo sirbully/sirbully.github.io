@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import ExoraProject from '@/assets/img/projects/exora.png'
-import DSCAdmuProject from '@/assets/img/projects/dscadmu.png'
-import KinderProject from '@/assets/img/projects/kinder.png'
-import WanderProject from '@/assets/img/projects/wandrr.png'
+import ExoraProject from '~@/assets/img/projects/exora.png'
+import DSCAdmuProject from '~@/assets/img/projects/dscadmu.png'
+import KinderProject from '~@/assets/img/projects/kinder.png'
+import WanderProject from '~@/assets/img/projects/wandrr.png'
 
 export default {
   data() {

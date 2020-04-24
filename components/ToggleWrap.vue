@@ -28,10 +28,10 @@
 
 <script>
 import { mapMutations } from 'vuex'
-import DarkMoon from '@/assets/img/toggler/moon.svg'
-import LightMoon from '@/assets/img/toggler/moon-white.svg'
-import DarkSun from '@/assets/img/toggler/sun.svg'
-import LightSun from '@/assets/img/toggler/sun-white.svg'
+import DarkMoon from '~@/assets/img/toggler/moon.svg'
+import LightMoon from '~@/assets/img/toggler/moon-white.svg'
+import DarkSun from '~@/assets/img/toggler/sun.svg'
+import LightSun from '~@/assets/img/toggler/sun-white.svg'
 
 export default {
   computed: {
