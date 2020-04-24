@@ -27,8 +27,8 @@
 </template>
 
 <script>
-import HandWave from '~@/assets/img/icons/waving-hand.png'
-import PointRight from '~@/assets/img/icons/right-point.png'
+import HandWave from '~assets/img/icons/waving-hand.png'
+import PointRight from '~assets/img/icons/right-point.png'
 
 export default {
   data() {
