@@ -28,9 +28,9 @@ import TheTrabajos from '@/components/TheTrabajos.vue'
 import FeaturedProjects from '@/components/FeaturedProjects.vue'
 import OtherProjects from '@/components/OtherProjects.vue'
 import TheFooter from '@/components/TheFooter.vue'
-import Rocket1 from '~assets/img/icons/rocket-1.png'
-import Rocket2 from '~assets/img/icons/rocket-2.png'
-import Cover from '~assets/img/Cover.png'
+import Rocket1 from '@/assets/img/icons/rocket-1.png'
+import Rocket2 from '@/assets/img/icons/rocket-2.png'
+import Cover from '@/assets/img/Cover.png'
 
 export default {
   components: {

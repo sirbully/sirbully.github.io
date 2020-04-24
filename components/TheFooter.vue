@@ -32,11 +32,11 @@
 </template>
 
 <script>
-import RockOn from '~assets/img/icons/rockon.png'
-import EmailIcon from '~assets/img/social/email.svg'
-import GithubIcon from '~assets/img/social/github.svg'
-import InstagramIcon from '~assets/img/social/instagram.svg'
-import LinkedinIcon from '~assets/img/social/linkedin.svg'
+import RockOn from '@/assets/img/icons/rockon.png'
+import EmailIcon from '@/assets/img/social/email.svg'
+import GithubIcon from '@/assets/img/social/github.svg'
+import InstagramIcon from '@/assets/img/social/instagram.svg'
+import LinkedinIcon from '@/assets/img/social/linkedin.svg'
 
 export default {
   data() {
