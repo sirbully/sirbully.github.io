@@ -1,12 +1,12 @@
 // only add `router.base = '/personal-portfolio-v1/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES'
-    ? {
-        router: {
-          base: '/personal-portfolio-v1/'
-        }
-      }
-    : {}
+// const routerBase =
+//   process.env.DEPLOY_ENV === 'GH_PAGES'
+//     ? {
+//         router: {
+//           base: '/personal-portfolio-v1/'
+//         }
+//       }
+//     : {}
 export default {
   mode: 'universal',
   /*
@@ -61,5 +61,7 @@ export default {
      */
     extend(config, ctx) {}
   },
-  ...routerBase
+  router: {
+    base: '/personal-portfolio-v1/'
+  }
 }
