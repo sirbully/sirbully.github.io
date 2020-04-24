@@ -60,8 +60,8 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
-  },
-  router: {
-    base: '/personal-portfolio-v1/'
   }
+  // router: {
+  //   base: '/personal-portfolio-v1/'
+  // }
 }
