@@ -144,27 +144,6 @@ body {
   font-family: $Apercu;
   line-height: 1.5;
   width: 100%;
-
-  &.night {
-    background-color: $night;
-    color: $slate;
-    ::selection {
-      color: $black;
-      background: $yellow;
-    }
-    a,
-    strong,
-    .intro,
-    .skills .skillz__category__label,
-    .experience .job__time,
-    .footer__copyright,
-    .status {
-      color: $off-white;
-    }
-    .section__content .underline-link:after {
-      background: $off-white;
-    }
-  }
 }
 
 a {
@@ -296,6 +275,7 @@ strong {
     bottom: 2px;
     margin-left: 15px;
     content: '';
+    background: url('~@/assets/img/icons/arrow.png');
     background-size: 100%;
     width: 15px;
     height: 15px;
