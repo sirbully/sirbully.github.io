@@ -51,8 +51,8 @@ export default {
       desc:
         "I'm Krizza Bullecer, a curious full-stack software engineer focused on building beautiful and optimized apps while staying up-to-date with the latest trends in tech.",
       img: Cover,
-      twitterImg: 'https://sirbully.github.io/' + `${Cover}`,
-      url: 'https://sirbully.github.io/',
+      twitterImg: 'https://sirbully.github.io' + `${Cover}`,
+      url: 'https://sirbully.github.io',
       siteName: 'Krizza Bullecer'
     }
   },
