@@ -117,6 +117,7 @@ export default {
 
 <style lang="scss">
 @import '../assets/css/styles.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 #other-projects {
   .project {
