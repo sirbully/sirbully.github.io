@@ -37,7 +37,7 @@ export default {
     strong,
     .intro,
     .skills .skillz__category__label,
-    .powers__category__label,
+    .powers .powers__category__label,
     .experience .job__time,
     .footer__copyright,
     .status {
