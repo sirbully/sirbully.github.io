@@ -46,6 +46,10 @@ export default {
     .section__content .underline-link:after {
       background: $off-white;
     }
+
+    #typewriter > .text-wrap {
+      border-right: 0.08em solid $off-white;
+    }
   }
 }
 </style>
