@@ -5,15 +5,16 @@
         <span>Design Inspiration from</span>
       </div>
       <div class="bottom">
-        <span
-          ><a
+        <span>
+          <a
             href="https://github.com/bchiang7"
             target="_blank"
             class="underline-link"
-            >Brittany Chiang</a
-          ></span
-        >
-        <img class="emoji" :src="RockOn" alt="emoji" />
+          >
+            Brittany Chiang
+          </a>
+        </span>
+        🤘
       </div>
     </div>
     <div class="footer__links">
@@ -32,7 +33,6 @@
 </template>
 
 <script>
-import RockOn from '@/assets/img/icons/rockon.png'
 import EmailIcon from '@/assets/img/social/email.svg'
 import GithubIcon from '@/assets/img/social/github.svg'
 import InstagramIcon from '@/assets/img/social/instagram.svg'
@@ -41,7 +41,6 @@ import LinkedinIcon from '@/assets/img/social/linkedin.svg'
 export default {
   data() {
     return {
-      RockOn,
       socialLinks: [
         {
           url: 'mailto:hello@krizzabullecer.dev',

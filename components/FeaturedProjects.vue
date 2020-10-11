@@ -66,7 +66,7 @@ export default {
         {
           title: 'wandrr: Immersion app',
           desc:
-            'This is our submission for a hackathon. The theme of the hackathon was to bring more awareness to the Filipino culture.<br /><br /><a href="https://www.instagram.com/p/B86NnAVhKN3/" target="_blank" class="underline-link"><small>🏆Won 2nd place at Blue Hacks 2020!🏆</small></a>',
+            'This is our submission for a hackathon. The theme of the hackathon was to bring more awareness to the Filipino culture.<br /><br /><a href="https://www.instagram.com/p/B86NnAVhKN3/" target="_blank" class="underline-link"><small>🏆 Won 2nd place at Blue Hacks 2020! 🏆</small></a>',
           link: 'https://www.instagram.com/p/B86NnAVhKN3/',
           img: WanderProject,
           tools: ['Git@Github', 'Bootstrap', 'React']

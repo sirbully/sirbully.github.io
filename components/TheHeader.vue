@@ -1,10 +1,8 @@
 <template>
   <header class="intro">
     <h1 class="intro__hola">
-      <span id="typewriter">
-        <span class="type-wrap"></span>
-      </span>
-      <span class="emoji" :style="waveHand"></span>
+      <span id="typewriter"></span>
+      👋
     </h1>
     <h2 class="intro__motto">
       I'm <span class="pangalan">Krizza Bullecer</span>, a curious full-stack
@@ -13,37 +11,24 @@
     </h2>
     <h3 class="intro__contact">
       <span>Get in touch</span>
-      <span class="emoji pointer" :style="rightPoint"></span>
-      <span
-        ><a
+      <span>
+        👉
+        <a
           href="mailto:hello@krizzabullecer.dev"
           target="_blank"
           class="highlight-link"
-          >hello@krizzabullecer.dev</a
-        ></span
-      >
+        >
+          hello@krizzabullecer.dev
+        </a>
+      </span>
     </h3>
   </header>
 </template>
 
 <script>
-import HandWave from '@/assets/img/icons/waving-hand.png'
-import PointRight from '@/assets/img/icons/right-point.png'
-
 export default {
   data() {
     return {
-      waveHand: {
-        background: `url(${HandWave}) no-repeat center`,
-        backgroundSize: '100%',
-        marginLeft: '10px'
-      },
-      rightPoint: {
-        background: `url(${PointRight}) no-repeat center`,
-        backgroundSize: '100%',
-        margin: '0 5px',
-        verticalAlign: 'text-bottom'
-      },
       element: null,
       toRotate: ['Mabuhay!', '¡Hola!', 'こんにちは!', 'Hello!'],
       period: 2000,

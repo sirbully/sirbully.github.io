@@ -96,7 +96,7 @@ export default {
         {
           title: 'iKARLY Web App',
           desc:
-            'Our submission for the all-female hackathon by Accenture. The hackathon was held during Women\'s month and the theme was to create an app that would make women more confident in themselves.<br /><br /><a href="https://www.instagram.com/p/BzoqA1Thi06/" target="_blank"><small>🏆Won Best Beginner Hack at Accenture\'s DevelopHER 2019!🏆</small></a>',
+            'Our submission for the all-female hackathon by Accenture. The hackathon was held during Women\'s month and the theme was to create an app that would make women more confident in themselves.<br /><br /><a href="https://www.instagram.com/p/BzoqA1Thi06/" target="_blank"><small>🏆 Won Best Beginner Hack at Accenture\'s DevelopHER 2019! 🏆</small></a>',
           link: 'https://github.com/sirbully/DevelopHER-2019-Team-iKARLy',
           tools: [
             'Git@Github',
