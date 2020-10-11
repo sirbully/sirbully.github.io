@@ -16,10 +16,10 @@
       <span class="emoji pointer" :style="rightPoint"></span>
       <span
         ><a
-          href="mailto:krizzabullecer@gmail.com"
+          href="mailto:hello@krizzabullecer.dev"
           target="_blank"
           class="highlight-link"
-          >krizzabullecer@gmail.com</a
+          >hello@krizzabullecer.dev</a
         ></span
       >
     </h3>
