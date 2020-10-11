@@ -44,12 +44,12 @@ export default {
       RockOn,
       socialLinks: [
         {
-          url: 'mailto:krizzabullecer@gmail.com',
+          url: 'mailto:hello@krizzabullecer.dev',
           title: 'Email',
           logo: EmailIcon
         },
         {
-          url: 'https://www.instagram.com/iamkindasmol',
+          url: 'https://www.instagram.com/krazybit',
           title: 'Instagram',
           logo: InstagramIcon
         },
