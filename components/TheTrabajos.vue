@@ -29,21 +29,27 @@ export default {
       trabahos: [
         {
           saan: 'Kredo IT Abroad Inc',
-          kelan: 'October 2020 - Present',
-          posisyon: 'Part-time IT Teacher',
+          kelan: 'Oct 2020 - Present',
+          posisyon: 'IT/English Teacher',
           url: 'https://kredo.jp/'
         },
         {
-          saan: 'Exora Technologies',
-          kelan: 'Nov 2019 - August 2019',
-          posisyon: 'Platform Engineer',
-          url: 'https://www.exora.ph'
+          saan: 'Changing Digital',
+          kelan: 'Sept 2020 - Present',
+          posisyon: 'Full-stack Developer',
+          url: 'http://changingdigital.com/'
         },
         {
           saan: 'Women Who Code Manila',
           kelan: 'Jan 2018 - Present',
           posisyon: 'VueJS Tech Lead',
           url: 'https://www.womenwhocode.com/manila/about#leaders'
+        },
+        {
+          saan: 'Exora Technologies',
+          kelan: 'Nov 2019 - Aug 2020',
+          posisyon: 'Front-end Developer',
+          url: 'https://www.exora.ph'
         },
         {
           saan: 'My Kids Code PH',
