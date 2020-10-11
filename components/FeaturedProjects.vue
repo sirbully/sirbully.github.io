@@ -58,7 +58,7 @@ export default {
         {
           title: 'Kinder Book Campaign',
           desc:
-            'A project in collaboration with Kinder Germany. I was outsourced as a front-end developer their campaign.',
+            'A project in collaboration with Kinder Germany. I was outsourced as a front-end developer for their campaign.',
           link: null,
           img: KinderProject,
           tools: ['Git@Bitbucket', 'Vue', 'Laravel', 'Jira']
