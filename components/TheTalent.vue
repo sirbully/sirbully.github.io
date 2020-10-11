@@ -34,8 +34,8 @@ export default {
             'Javascript ES6+',
             'NodeJS',
             'PHP',
-            'Java',
-            'Python'
+            'Python',
+            'Go'
           ]
         },
         {
@@ -46,9 +46,9 @@ export default {
             'jQuery',
             'Express',
             'Laravel',
-            'CodeIgniter',
-            'Spring',
-            'Django'
+            'Django',
+            'React Native',
+            'Next.js'
           ]
         },
         {
@@ -60,8 +60,8 @@ export default {
             'MySQL',
             'MongoDB',
             'PostgreSQL',
-            'WordPress',
-            'Jest'
+            'Docker',
+            'CI/CD'
           ]
         },
         {
@@ -69,12 +69,12 @@ export default {
           powers: [
             'Bootstrap',
             'Material',
-            'Bulma',
             'Tailwind',
             'UI/UX',
             'Figma',
-            'Photoshop',
-            'Illustrator'
+            'Adobe XD',
+            'Adobe Photoshop',
+            'Adobe Illustrator'
           ]
         }
       ]
