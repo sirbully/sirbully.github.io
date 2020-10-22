@@ -93,12 +93,16 @@ export default {
           content: 'article'
         },
         {
+          property: 'og:title',
+          content: this.title
+        },
+        {
           property: 'og:description',
           content: this.desc
         },
         {
           property: 'og:image',
-          content: this.img
+          content: this.twitterImg
         },
         {
           property: 'og:url',
@@ -106,6 +110,10 @@ export default {
         },
         {
           property: 'og:site_name',
+          content: this.siteName
+        },
+        {
+          name: 'author',
           content: this.siteName
         },
         {
