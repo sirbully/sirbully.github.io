@@ -41,7 +41,7 @@ export default {
         },
         {
           saan: 'Kredo IT Abroad Inc',
-          kelan: 'Oct 2020 - December 2020',
+          kelan: 'Oct 2020 - Dec 2020',
           posisyon: 'IT/English Teacher',
           url: 'https://kredo.jp/'
         },
