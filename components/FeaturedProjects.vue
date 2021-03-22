@@ -56,14 +56,6 @@ export default {
           tools: ['Git@Github', 'Vue', 'Firebase']
         },
         {
-          title: 'Kinder Book Campaign',
-          desc:
-            'A project in collaboration with Kinder Germany. I was outsourced as a front-end developer for their campaign.',
-          link: null,
-          img: KinderProject,
-          tools: ['Git@Bitbucket', 'Vue', 'Laravel', 'Jira']
-        },
-        {
           title: 'wandrr: Immersion app',
           desc:
             'This is our submission for a hackathon. The theme of the hackathon was to bring more awareness to the Filipino culture.<br /><br /><a href="https://www.instagram.com/p/B86NnAVhKN3/" target="_blank" class="underline-link"><small>🏆 Won 2nd place at Blue Hacks 2020! 🏆</small></a>',
