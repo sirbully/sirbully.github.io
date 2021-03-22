@@ -34,16 +34,16 @@ export default {
           url: 'https://changingdigital.com/'
         },
         {
-          saan: 'Kredo IT Abroad Inc',
-          kelan: 'Oct 2020 - December 2020',
-          posisyon: 'IT/English Teacher',
-          url: 'https://kredo.jp/'
-        },
-        {
           saan: 'Women Who Code Manila',
           kelan: 'Jan 2018 - Present',
           posisyon: 'VueJS Tech Lead',
           url: 'https://www.womenwhocode.com/manila/about#leaders'
+        },
+        {
+          saan: 'Kredo IT Abroad Inc',
+          kelan: 'Oct 2020 - December 2020',
+          posisyon: 'IT/English Teacher',
+          url: 'https://kredo.jp/'
         },
         {
           saan: 'Exora Technologies',
