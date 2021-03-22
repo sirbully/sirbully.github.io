@@ -37,7 +37,39 @@ export default {
         //   desc: '',
         //   link: '',
         //   tools: []
-        // }
+        // },
+        {
+          title: 'React Chat App',
+          desc:
+            "I wanted to learn how to integrate real-time communication in my apps. I used Socket.io to create a simple chat app in React. It was a little bit stressful learning this technology without having prior background or without any knowledge on where/how to get started but I made it work so it's a little achievement for me :)",
+          link: 'https://stoic-jones-a79eaa.netlify.app/',
+          tools: [
+            'Git@Github',
+            'HTML',
+            'CSS',
+            'Sass',
+            'Javascript',
+            'React',
+            'Express',
+            'Socket.io',
+            'Netlify'
+          ]
+        },
+        {
+          title: 'Vue Weather App',
+          desc:
+            'I recently joined a website called <a href="https://devchallenges.io/portfolio/sirbully" target="_blank" class="underline-link">devchallenges.io</a> in the middle of the quarantine period in 2020. I wanted to test my Vue knowledge by creating web apps for the front-end path certification. It was really fun to make this!',
+          link: 'https://weather-app-vue.vercel.app/',
+          tools: [
+            'Git@Github',
+            'HTML',
+            'CSS',
+            'Sass',
+            'Javascript',
+            'Vue',
+            'Vercel'
+          ]
+        },
         {
           title: 'Screen Recorder',
           desc:
@@ -85,13 +117,6 @@ export default {
             'Laravel',
             'REST API'
           ]
-        },
-        {
-          title: 'Pink Pearl Romance',
-          desc:
-            "A book club website I created for a client at OnlineJobs.ph. The main goal of the website is to introduce new romance books to the client's newsletter subscribers. The client specifcally requested for a custom WordPress theme on an existing web hosting provider.",
-          link: 'http://pinkpearlromance.com/',
-          tools: ['HTML', 'CSS', 'PHP', 'WordPress', 'cPanel']
         },
         {
           title: 'iKARLY Web App',
