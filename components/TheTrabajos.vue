@@ -28,16 +28,16 @@ export default {
         'https://drive.google.com/open?id=1ORdGWxHz4ErFlc4EXlMaPkF2Oox_ubHj',
       trabahos: [
         {
-          saan: 'Kredo IT Abroad Inc',
-          kelan: 'Oct 2020 - Present',
-          posisyon: 'IT/English Teacher',
-          url: 'https://kredo.jp/'
-        },
-        {
           saan: 'Changing Digital',
           kelan: 'Sept 2020 - Present',
           posisyon: 'Full-stack Developer',
-          url: 'http://changingdigital.com/'
+          url: 'https://changingdigital.com/'
+        },
+        {
+          saan: 'Kredo IT Abroad Inc',
+          kelan: 'Oct 2020 - December 2020',
+          posisyon: 'IT/English Teacher',
+          url: 'https://kredo.jp/'
         },
         {
           saan: 'Women Who Code Manila',
